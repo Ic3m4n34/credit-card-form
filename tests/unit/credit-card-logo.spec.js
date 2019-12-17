@@ -8,6 +8,7 @@ describe('CreditCardLogo', () => {
   });
 
   it('renders component', () => {
+    expect(wrapper).toMatchSnapshot();
     expect(wrapper.classes()).toEqual(expect.arrayContaining(['credit-card-logo']));
   });
 

@@ -6,7 +6,7 @@
 
         </div>
         <div class="credit-card__logo-container">
-          <CreditCardLogo :active-credit-card="activeCreditCard" />
+         <!--  <CreditCardLogo :active-credit-card="activeCreditCard" /> -->
         </div>
       </div>
       <div class="credir-card__number-container">
